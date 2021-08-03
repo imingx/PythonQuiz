@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>673</width>
+    <height>559</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="returnbutton">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>20</y>
+     <width>91</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>45</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>45</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	background-color: rgb(33,174,250);
+	border-radius: 5px;
+	color: white;
+}
+QPushButton:hover {
+	background-color: rgb(72,203,250);
+}
+QPushButton:pressed {
+	background-color: rgb(85,85,255);
+}
+QPushButton:disabled {
+	background-color: rgb(148, 146, 149);
+}</string>
+   </property>
+   <property name="text">
+    <string>返回主界面</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/login/images/safe.png</normaloff>:/login/images/safe.png</iconset>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>361</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>条形图</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>270</y>
+     <width>361</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>折线图</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
